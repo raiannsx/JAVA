@@ -1,0 +1,10 @@
+public class Main{
+    public static void main (String [] args){
+    String nome = "Raian Antonio";
+    Float valor = 10;
+    double valor1 = 12.333;
+    double resultado;
+    resultado = valor + valor1;
+    System.out.println(resultado);
+    }
+}
