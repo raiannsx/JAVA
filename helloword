@@ -1,5 +1,5 @@
-public class Main{
-    public static void main (String [] args){
-        System.out.println ("Seja bem vindo a linguagem java");
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Seja bem-vindo!"); // Note: "System.out.println" has lowercase "p"
     }
 }
