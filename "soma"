@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        String Nome = "Lucas";
+        int N1 = 10;
+        float N2 = 20;
+        float soma = N1 + N2;
+
+        System.out.println("O resultado da soma é: " + SOMA);
+    }
+}
