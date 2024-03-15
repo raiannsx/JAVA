@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class Main{
+    
+	public static void main(String[] args) {
+	    
+	    Scanner teclado = new Scanner (System.in);
+	    int nota1, nota2;
+	    int media;
+	    
+		System.out.println("informe o primeiro valor: ");
+		nota1 = teclado.nextInt();
+		
+		System.out.println("informe o segundo valor");
+		nota2 = teclado.nextInt ();
+		teclado.close();
+		
+		
+		  // recebe a 1º nota
+            System.out.println("Aluno  digite sua 1ª nota");
+            nota1 = teclado.nextInt();
+            
+            // recebe a 2º nota
+            System.out.println("Aluno digite sua 2ª nota");
+            nota2 = teclado.nextInt();
+            
+            // calcula a média
+            media = (nota1 + nota2) / 2.0;
+            System.out.println("A média do aluno  é " + media);
+            
+          if (media >= 7) {
+            System.out.println("Aprovado");
+        } else {
+            System.out.println("Reprovado");
+        }
+         
+        teclado.close();
+    }
+}
+}
+}
