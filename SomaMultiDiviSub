@@ -1,0 +1,15 @@
+	float divi;
+		int soma, subtr, mult;
+		
+		soma = a + b;
+		subtr = a - b;
+		divi = a / b;
+		mult = a * b;
+		
+		
+		System.out.println("Soma:" + soma);
+		System.out.println("Substração:" + subtr);
+		System.out.println("Multiplicação:" + mult);
+		System.out.println("Divisão:" + divi);
+		
+}
